@@ -14,8 +14,11 @@ public class GPA {
         for(int i = 0; i< nbcourses.length; i++){
             System.out.println("Enter your average of the course"+ (i+1) + ":");
             nbcourses[i] = scan.nextDouble();
-            
+            sum += nbcourses[i];
         }
+
+        double average = sum/nbcourses.length;
+
 
         
     }
