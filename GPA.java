@@ -9,7 +9,11 @@ public class GPA {
         int x = scan.nextInt();
 
         double[] nbcourses = new double[x];
-        
+        double sum = 0;
+
+        for(int i = 0; i< nbcourses.length; i++){
+            System.out.println("Enter your average of the course"+ (i+1) + ":");
+        }
 
         
     }
