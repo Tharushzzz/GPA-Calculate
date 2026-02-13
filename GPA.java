@@ -28,7 +28,7 @@ public class GPA {
         }else if(average>=45){
             System.out.println("You have S");
         }else{
-            System.out.println("You have F");
+            System.out.println("You have faild");
         }
         
     }
