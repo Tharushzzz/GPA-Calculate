@@ -19,7 +19,17 @@ public class GPA {
 
         double average = sum/nbcourses.length;
 
-
+        if(average>90){
+            System.out.println("You have A");
+        }else if(average>=80){
+            System.out.println("You have B");
+        }else if(average>=60){
+            System.out.println("You have C");
+        }else if(average>=45){
+            System.out.println("You have S");
+        }else{
+            System.out.println("You have F");
+        }
         
     }
 }
